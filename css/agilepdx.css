@@ -1,0 +1,158 @@
+/*
+* Agile PDX Web Site CSS
+* 06/28/2017
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- images
+*/
+
+
+/* images
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.scalingImage img {
+	width: 100%;
+	height: auto;
+}
+
+.coverImage {
+	object-fit: cover;
+	height: 150px;
+	width: 100%;
+}
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+.hoverClick {
+	cursor: pointer;
+}
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 3rem 0 3rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+.palettePurple {
+	background-color: #C1A7CE;
+}
+.paletteDarkPurple {
+	background-color: #3C3C93;
+}
+.paletteGray {
+	background-color: #63625C;
+}
+.palettePink {
+	background-color: #DC3882;
+}
+.paletteDark {
+	background-color: #1F2125;
+}
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  color: #3C3C93; }
+a:hover {
+  color: #C1A7CE; }
+.palettePurple a {
+  color: #63625C; }
+.palettePurple a:hover {
+  color: #1F2125; }
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 3rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+}
+.categories .section-description { 
+  margin-bottom: 3rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 3rem 0 3rem;
+  }
+  .hero {
+    padding-bottom: 2rem;
+    text-align: left;
+    height: 65px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .section {
+    padding: 3rem 0 3rem;
+  }
+  .hero {
+    padding-bottom: 2rem;
+    text-align: left;
+    height: 65px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 3rem 0 3rem;
+  }
+  .hero {
+    padding-bottom: 2rem;
+    text-align: left;
+    height: 65px;
+  }
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+}
